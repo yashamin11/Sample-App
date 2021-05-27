@@ -8,5 +8,5 @@
 
 ## To start the frontend
 
-`npm install `
+`npm install`
 `npm start`
