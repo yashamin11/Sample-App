@@ -1,12 +1,53 @@
-# Sample-App
+# MERN Stack Boilerplate
+
+## Installations
+
+### Node
+
+* For Linux:
+```
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
+* For Mac:
+```
+brew install node
+```
+
+### MongoDB
+
+Install the community edition [here](https://docs.mongodb.com/manual/installation/#mongodb-community-edition-installation-tutorials).
 
 
-## To start the backend
+### React
 
-`npm install`
-`npm start`
+```
+npm install -g create-react-app
+```
 
-## To start the frontend
+## Running the boilerplate
 
-`npm install`
-`npm start`
+* Run Mongo daemon:
+```
+sudo mongod
+```
+Mongo will be running on port 27017.
+
+
+* Run Express Backend:
+```
+cd backend/
+npm install
+npm start
+```
+
+* Run React Frontend:
+```
+cd frontend
+npm install/
+npm start
+```
+
+Navigate to [http://localhost:3000/](http://localhost:3000/) in your browser.
+
